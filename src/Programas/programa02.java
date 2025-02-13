@@ -2,7 +2,7 @@
 package Programas;
 import java.util.Scanner;
 public class programa02 {    
-//Método principal 
+//Método principal del proyecto
  public static void main(String args[]) {      
  //Declaracion de variables  
  String empleado;  
@@ -14,7 +14,7 @@ public class programa02 {
  empleado = lectura.next();  
  System.out.print("Horas trabajadas: ");  
  ht = lectura.nextDouble();  
- System.out.print("Tarifa por hora: ");  
+ System.out.print("Tarifa por hora trabajada: ");  
  th = lectura.nextDouble();  
  //Proceso de datos  
  sb=ht*th;  
